@@ -1,0 +1,28 @@
+#S4{
+  background-color:pink;
+  display:grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+}
+tbody{
+  display:contents;
+}
+tr{
+  display:contents;
+}
+td{
+  border:1px purple solid;
+}
+body{
+  height:100vh;
+  background:blue;
+  margin:0px;
+  display:grid;
+  grid-template: 75px 1fr 1fr 1fr/1fr 1fr 1fr;
+}
+header{
+  grid-column-start:1;
+  grid-column-end:span 3;
+}
+#S1{
+  background-color:yellow;
+}

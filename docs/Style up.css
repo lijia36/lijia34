@@ -1,0 +1,14 @@
+h1{
+font-family:georgia; 
+color:red
+}
+
+ol{color:blue;}
+
+ul{color:rgb(241, 104, 127);}
+
+table,th,td
+{border: 1px solid rgb(255, 255, 108);
+border-collapse: collapse;}
+th,td
+{padding: 15px}
