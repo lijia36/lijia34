@@ -1,0 +1,29 @@
+{
+  "name": "lijia34",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijia36/lijia34.git"
+  },
+  "author": "lijia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijia36/lijia34/issues"
+  },
+  "homepage": "https://github.com/lijia36/lijia34#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

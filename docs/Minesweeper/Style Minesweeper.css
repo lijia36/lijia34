@@ -17,12 +17,23 @@ body{
   background:blue;
   margin:0px;
   display:grid;
-  grid-template: 75px 1fr 1fr 1fr/1fr 1fr 1fr;
+  grid-template: 75px 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
 }
 header{
-  grid-column-start:1;
+  grid-column-start:2;
   grid-column-end:span 3;
 }
 #S1{
   background-color:yellow;
 }
+#S2{
+  background-color:purple;
+  grid-column-start:2;
+  grid-row-start:2;
+}
+#S3{
+  background-color:green;
+  grid-column-start:3;
+  grid-row-start:2;
+}
+
